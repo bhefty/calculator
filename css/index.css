@@ -1,0 +1,67 @@
+@import 'https://fonts.googleapis.com/css?family=Exo';
+body {
+  background: #afc1b5;
+}
+
+.calcBody {
+  box-shadow: 0px 10px 25px 10px #888888;
+  border-radius: 25px;
+  border: solid #92b79e 3px;
+  font-family: 'Exo', sans-serif;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #ccffdd;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ccffdd 0%, #b7e2c6 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #ccffdd 0%, #b7e2c6 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #ccffdd 0%, #b7e2c6 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ccffdd', endColorstr='#b7e2c6', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.btn {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.entryField {
+  background-color: #b7e5c6;
+  border: solid black 1px;
+  margin: 10px;
+  height: 70px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.clear {
+  background-color: #FF0000;
+}
+
+.clear:hover {
+  background-color: #b20000;
+  color: white;
+}
+
+.stdBtn {
+  background-color: #808080;
+}
+
+.stdBtn:hover {
+  background-color: #404040;
+  color: white;
+}

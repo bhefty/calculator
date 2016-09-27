@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Javascript Calculator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <!-- Calculator title -->
+  <div class="calcBody">
+    <div class="text-center" style="font-size: 16pt; font-weight: bold">
+      hEll0 CALC
+    </div>
+    <div class="text-center" style="font-size: 8pt;">
+      Powered by Javascript
+    </div>
+    <!--  Display button press here  -->
+    <div class="entryField">
+      <div id="entry" class="text-right" style="font-size: 28pt;">
+      </div>
+
+      <!--   Display button press history here   -->
+
+      <div id="entryHistory" class="text-right" style="font-size: 8pt; color: grey;">
+      </div>
+    </div>
+    <!--   Display buttons   -->
+    <div style="color: white; position:relative; left: 2px;">
+      <div>
+        <div id="ac" style="display: inline-block;"><button class="btn clear" value="ac">AC</button></div>
+        <div id="ce" style="display: inline-block;"><button class="btn clear" value="ce">CE</button></div>
+        <div id="divide" style="display: inline-block;"><button class="btn stdBtn" value="/">&divide;</button></div>
+        <div id="multiply" style="display: inline-block;"><button class="btn stdBtn" value="x">&#215;</button></div>
+      </div>
+      <div>
+        <div id="7" style="display: inline-block;"><button class="btn stdBtn" value="7">7</button></div>
+        <div id="8" style="display: inline-block;"><button class="btn stdBtn" value="8">8</button></div>
+        <div id="9" style="display: inline-block;"><button class="btn stdBtn" value="9">9</button></div>
+        <div id="subtract" style="display: inline-block;"><button class="btn stdBtn" value="-">-</button></div>
+      </div>
+      <div>
+        <div id="4" style="display: inline-block;"><button class="btn stdBtn" value="4">4</button></div>
+        <div id="5" style="display: inline-block;"><button class="btn stdBtn" value="5">5</button></div>
+        <div id="6" style="display: inline-block;"><button class="btn stdBtn" value="6">6</button></div>
+        <div id="add" style="display: inline-block;"><button class="btn stdBtn" value="+">+</button></div>
+      </div>
+      <div>
+        <div id="equals" style="display: inline-block; position: relative; right: 8px;" class="pull-right"><button class="btn stdBtn" style="height: 123px;" value="=">=</button></div>
+        <div id="1" style="display: inline-block;"><button class="btn stdBtn" value="1">1</button></div>
+        <div id="2" style="display: inline-block;"><button class="btn stdBtn" value="2">2</button></div>
+        <div id="3" style="display: inline-block;"><button class="btn stdBtn" value="3">3</button></div>
+      </div>
+      <div>
+        <div id="0" style="display: inline-block;"><button class="btn stdBtn" style="width: 123px;" value="0">0</button></div>
+        <div id="decimal" style="display: inline-block;"><button class="btn stdBtn" value=".">.</button></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/jquery-3.1.1.min.js" charset="utf-8"></script>
+  <script src="./js/index.js" charset="utf-8"></script>
+</body>
+
+</html>
